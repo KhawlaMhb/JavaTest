@@ -1,3 +1,4 @@
+
 public class TimeDuration {
 
 	private int duration;
@@ -25,5 +26,9 @@ public class TimeDuration {
 		if (hours > 0 && min == 0) res+= "0m ";
 		res+= duration+ "s";
 		return res;
+	}
+	
+	public int getDuration() {
+		return duration;
 	}
 }
